@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto&display=swap');
+
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* font-family: 'Inter', sans-serif; */
+}
+.left-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    flex-direction: column;
+}
+
+.left-side>a{
+    text-decoration: none;
+    color: rgba(87, 90, 133, 1);
+    font-size: 36px;
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.left-side>p{
+    color: rgba(184, 188, 204, 1);
+    font-size: 24px;
+    margin-left: 3%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200px;
+/* font-family: 'Roboto', sans-serif; */
+}
+
+.left-side>img{
+  width: 50%;
+  height: 50%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+.right-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(87, 90, 133, 1);
+}
+.right-side>button{
+background-color: transparent;
+border: none;
+border: 2px solid rgba(184, 188, 204, 1);
+padding: 2%;
+border-radius: 5px;
+font-family: 'Inter', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+.right-side>p{
+    font-family: 'Inter', sans-serif;
+}
